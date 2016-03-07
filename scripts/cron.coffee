@@ -7,7 +7,6 @@
 
 
 cronJob = require('cron').CronJob
-execsyncs = require('execsyncs')
 random = (n) -> Math.floor(Math.random() * n)
 
 module.exports = (robot) ->

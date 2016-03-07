@@ -15,7 +15,6 @@
 #   benjamine
 
 child_process = require('child_process')
-execsyncs = require('execsyncs')
 
 module.exports = (robot) ->
     robot.respond /できること$/i, (msg) ->
